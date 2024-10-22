@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 function Header({ text }) {
   return (
     <header>
@@ -9,13 +7,5 @@ function Header({ text }) {
     </header>
   );
 }
-
-Header.defaultProps = {
-  text: "porcodio",
-};
-
-Header.propTypes = {
-  text: PropTypes.string,
-};
 
 export default Header;
